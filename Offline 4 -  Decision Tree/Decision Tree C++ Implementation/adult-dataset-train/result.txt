@@ -1,0 +1,119 @@
+Loading dataset...
+Loaded 32561 rows.
+Loading time: 4.33264 ms
+
+Splitting train/test data...
+Training set size: 26048, Test set size: 6513
+Split time: 18.546 ms
+
+Training decision tree...
+Training completed.
+Training time: 1181.63 ms
+
+Predicting test data...
+Prediction completed.
+Prediction time: 0.0361393 ms
+
+Summary:
+Criterion   : IG
+Max Depth   : 5
+Train Time  : 1181.63 ms
+Predict Time: 0.0361393 ms
+Tree Size   : 8380
+Accuracy    : 83.46 %
+--------------------------------------------------------
+
+Loading dataset...
+Loaded 32561 rows.
+Loading time: 3.8426 ms
+
+Splitting train/test data...
+Training set size: 26048, Test set size: 6513
+Split time: 15.6244 s
+
+Training decision tree...
+Training completed.
+Training time: 2626.17 s
+
+Predicting test data...
+Prediction completed.
+Prediction time: 0.196615 s
+
+Summary:
+Criterion   : IGR
+Max Depth   : 5
+Train Time  : 2626.17 s
+Predict Time: 0.196615 s
+Tree Size   : 471
+Accuracy    : 84.94 %
+---------------------------------------------------------
+
+
+Loading dataset...
+Loaded 32561 rows.
+Loading time: 1.91667 ms
+
+Splitting train/test data...
+Training set size: 26048, Test set size: 6513
+Split time: 9.64425 s
+
+Training decision tree...
+Training completed.
+Training time: 486.211 s
+
+Predicting test data...
+Prediction completed.
+Prediction time: 0.0403941 s
+
+Summary:
+Criterion   : IG
+Max Depth   : 7
+Train Time  : 486.211 s
+Predict Time: 0.0403941 s
+Tree Size   : 41301
+Accuracy    : 81.54 %
+------------------------------------------------------------
+
+Max Depth,Selection Criteria,TrainTime(s),TreeSize,Accuracy(%)
+9,IG,0.1734,2044,68.42
+3,IG,0.2499,184,84.21
+6,IG,0.2663,1010,73.68
+7,IG,0.2722,1164,57.89
+1,IG,0.3333,17,78.95
+12,IG,0.3505,2473,68.42
+8,IG,0.3786,1759,73.68
+11,IG,0.4081,2491,73.68
+5,IG,0.4335,520,73.68
+2,IG,0.4415,92,52.63
+4,IG,0.4903,294,68.42
+10,IG,0.5276,2311,68.42
+14,IG,0.5497,5486,68.42
+13,IG,0.6538,2675,73.68
+1,IGR,0.3451,3,73.68
+9,IGR,0.8085,1380,78.95
+1,NWIG,0.3725,3,68.42
+6,IGR,0.7891,156,68.42
+2,IGR,0.6633,7,73.68
+7,IGR,0.8656,472,84.21
+3,IGR,0.9339,19,89.47
+8,IGR,0.9309,742,89.47
+9,NWIG,0.4402,1949,73.68
+6,NWIG,0.3684,697,78.95
+5,IGR,1.0181,107,73.68
+4,IGR,0.9918,44,68.42
+2,NWIG,0.4424,7,78.95
+7,NWIG,0.4250,1060,68.42
+8,NWIG,0.2594,1339,84.21
+12,IGR,1.2199,2138,73.68
+11,IGR,1.2353,2245,89.47
+3,NWIG,0.4762,19,63.16
+14,IGR,1.1383,5385,73.68
+5,NWIG,0.2655,180,78.95
+10,IGR,1.1960,1601,63.16
+13,IGR,1.0724,2610,78.95
+4,NWIG,0.2571,58,73.68
+12,NWIG,0.2060,2453,73.68
+10,NWIG,0.0835,2225,78.95
+11,NWIG,0.1673,2376,68.42
+13,NWIG,0.0879,2806,84.21
+14,NWIG,0.1199,5685,78.95

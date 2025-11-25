@@ -1,0 +1,75 @@
+Loading dataset...
+Loaded 32561 rows.
+Loading time: 4.33264 ms
+
+Splitting train/test data...
+Training set size: 26048, Test set size: 6513
+Split time: 18.546 ms
+
+Training decision tree...
+Training completed.
+Training time: 1181.63 ms
+
+Predicting test data...
+Prediction completed.
+Prediction time: 0.0361393 ms
+
+Summary:
+Criterion   : IG
+Max Depth   : 5
+Train Time  : 1181.63 ms
+Predict Time: 0.0361393 ms
+Tree Size   : 8380
+Accuracy    : 83.46 %
+--------------------------------------------------------
+
+Loading dataset...
+Loaded 32561 rows.
+Loading time: 3.8426 ms
+
+Splitting train/test data...
+Training set size: 26048, Test set size: 6513
+Split time: 15.6244 s
+
+Training decision tree...
+Training completed.
+Training time: 2626.17 s
+
+Predicting test data...
+Prediction completed.
+Prediction time: 0.196615 s
+
+Summary:
+Criterion   : IGR
+Max Depth   : 5
+Train Time  : 2626.17 s
+Predict Time: 0.196615 s
+Tree Size   : 471
+Accuracy    : 84.94 %
+---------------------------------------------------------
+
+
+Loading dataset...
+Loaded 32561 rows.
+Loading time: 1.91667 ms
+
+Splitting train/test data...
+Training set size: 26048, Test set size: 6513
+Split time: 9.64425 s
+
+Training decision tree...
+Training completed.
+Training time: 486.211 s
+
+Predicting test data...
+Prediction completed.
+Prediction time: 0.0403941 s
+
+Summary:
+Criterion   : IG
+Max Depth   : 7
+Train Time  : 486.211 s
+Predict Time: 0.0403941 s
+Tree Size   : 41301
+Accuracy    : 81.54 %
+------------------------------------------------------------

@@ -1,0 +1,9 @@
+mkdir chain-reaction-game
+cd chain-reaction-game
+npx create-react-app .
+
+npm install
+npm install ws
+npm start
+
+
